@@ -1,0 +1,53 @@
+body{
+    background-image: url("new_watch.jpg");
+    background-size: cover;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.stopwatch{
+    background-color: rgba(10, 46, 122, 0.977);
+    color: rgb(255, 240, 255);
+    text-align: center;
+    padding: 20px;
+    border-radius: 46px;
+    border: double 5px rgba(169, 227, 171, 0.742);
+    letter-spacing: 4px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(17, 137, 47);
+    border: 10px greenyellow;
+    color: rgba(188, 188, 198, 0.957);
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 45px;
+    font-family: inherit;
+    
+}
+button:hover{
+    background-color: rgb(218, 125, 32);
+    color: rgb(42, 5, 205);
+}
+h1{
+    text-shadow: 5px 5px 5px rgb(190, 157, 202);
+    font-size: 42px;
+    font-family: sans-serif;
+}
+p{
+    font-size: 40px;
+    text-shadow: 5px 6px 7px rgb(83, 108, 161);
+}
+#button-start{
+    font-family: serif;
+}
+#button-stop{
+    font-family: serif;
+}
+#button-reset{
+    font-family: serif;
+}
